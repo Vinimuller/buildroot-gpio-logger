@@ -11,6 +11,7 @@ Gravar em arquivo de log com timestamp e nome amigável do pino.
 Permitir associação de nomes personalizados aos pinos via arquivo de configuração.
 
 🗂 Estrutura do repositório
+```
 buildroot-gpio-logger/
  ├── .gitignore
  └── package/
@@ -23,6 +24,7 @@ buildroot-gpio-logger/
          └── src/
              ├── main.c              ← código-fonte da aplicação
              ├── Makefile            ← Makefile da aplicação
+```
 
 Descrição dos principais arquivos
 
