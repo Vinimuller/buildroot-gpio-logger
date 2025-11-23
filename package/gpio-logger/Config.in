@@ -1,0 +1,6 @@
+config BR2_PACKAGE_GPIO_LOGGER
+    bool "gpio-logger"
+    select BR2_PACKAGE_LIBGPIOD
+    help
+      Logs GPIO events with edge detection and debounce.
+
